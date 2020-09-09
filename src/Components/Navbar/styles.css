@@ -1,7 +1,20 @@
-.bottomnav{
-    display: inline-block;
-    align-content: center;  
+@font-face{
+    font-family: 'micolester';
+    src: url('./../../fonts/woffwala/micolesther_regular-webfont.woff') format(woff);
 }
-.logo{
-    margin: 4px;
+
+@font-face {
+    font-family: 'micolestherregular';
+    src: url('./../../fonts/woffwala/micolesther_regular-webfont.woff2') format('woff2'),
+         url('./../../fonts/woffwala/micolesther_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.searchpad{
+    color: darkgray;
+}
+.hello{
+    font-family: 'micolestherregular';
 }
