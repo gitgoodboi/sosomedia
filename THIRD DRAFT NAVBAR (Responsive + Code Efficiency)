@@ -1,0 +1,54 @@
+[33mcommit 716099040d3b48c7bf92604cf9ce4ef21714a100[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Wed Sep 9 20:13:07 2020 +0545
+
+    THIRD DRAFT NAVBAR (ANKIT SIR'S TOUCH)
+
+[33mcommit 4a584cc489b1fdea5a55d4b4c537f274b3a02489[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Tue Sep 8 19:16:36 2020 +0545
+
+    SECOND DRAFT NAVBAR RESPONSIVE UPDATE
+
+[33mcommit 809107c677bd2a3328bd327cda3dd4af49f194c3[m
+Author: Melvin <gurungmelvin@gmail.com>
+Date:   Tue Sep 8 17:50:09 2020 +0545
+
+    changes to sosomedia removed yarn (anish ko chitta dukyo pitta putyo)
+
+[33mcommit caa88905166d8d2e2a29b7204bb478839919a913[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Tue Sep 8 10:44:05 2020 +0545
+
+    BOTTOM NAVBAR FIRST DRAFT
+
+[33mcommit 5accf14072d1102faf4ac676d6776ea81285c40a[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Mon Sep 7 19:01:30 2020 +0545
+
+    Installed React Icons
+
+[33mcommit 7d9dcec9fd82e61ed6f76a2f44beb7f4bd14a2e4[m
+Merge: 5a831ae f6a1171
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Mon Sep 7 17:28:00 2020 +0545
+
+    Forceful merging First Draft
+
+[33mcommit 5a831aed09972a5ec46c8a8c064431711a2766ec[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Mon Sep 7 16:22:26 2020 +0545
+
+    Added Tailwindcss to app
+
+[33mcommit 1d91d1e72e189461c0be66250050b5b5ee1227e7[m
+Author: haude419 <70281188+haude419@users.noreply.github.com>
+Date:   Mon Sep 7 14:21:40 2020 +0545
+
+     FIRST ATTEMPT TO CREATE REACT APP
+
+[33mcommit f6a117184a237e5bf26f4b7198c5f25646b8e418[m
+Author: gitgoodboi <63849175+gitgoodboi@users.noreply.github.com>
+Date:   Sun Sep 6 19:14:29 2020 +0545
+
+    Initial commit
