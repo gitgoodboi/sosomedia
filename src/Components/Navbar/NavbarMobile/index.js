@@ -5,7 +5,8 @@ function NavbarMobile()
 {
     return(
 
-    <section className="fixed w-screen flex justify-between border-solid border-b-2 lg:hidden" >
+    <section className="fixed w-screen bg-white bg-opacity-100 z-50 flex justify-between border-solid border-b-2 
+    lg:hidden" >
     <div className='px-2 py-4' >
         <AiOutlineCamera size={32} />
     </div>

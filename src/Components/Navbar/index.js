@@ -11,7 +11,7 @@ function Navbar(){
     return(
         <div className='navbar' >
         <div className='fixed bg-white bg-opacity-100 bottom-0 w-screen flex justify-center border-solid border-t-2
-        lg:top-0 h-16 border-solid border-b-2 items-center'>
+        lg:top-0 h-16 border-solid border-b-2 items-center bg-white bg-opacity-100  '>
         {/* <nav class='w-screen' > */}
 
             
