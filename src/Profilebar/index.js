@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import "../tailwind.css";
-import DjAnkit from "../Images/Djankit.jpg";
+import DjAnkit from "../../src/img/Djankit.jpg";
 
 import {
   AiOutlineHome,

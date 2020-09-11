@@ -9,7 +9,7 @@ function Navbar(){
 
     return(
         <div className='navbar' >
-        <div className='fixed bottom-0 w-screen flex justify-center
+        <div className='fixed bottom-0 w-screen flex justify-center border-solid border-t-2
         lg:top-0 h-16 border-solid border-b-2 items-center'>
         {/* <nav class='w-screen' > */}
 
