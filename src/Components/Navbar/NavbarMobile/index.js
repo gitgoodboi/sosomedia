@@ -4,7 +4,7 @@ import { HiChatAlt } from "react-icons/hi"
 
 function NavbarMobile(){
     return(
-        <section className="fixed w-screen flex justify-between border-solid border-b-2 lg:hidden" >
+        <section style={{height: '62px'}} className="fixed w-screen flex justify-between border-solid border-b-2 lg:hidden" >
             <div>
                 <AiOutlineCamera size={32} className='m-2' />
             </div>

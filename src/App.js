@@ -11,17 +11,17 @@ function App() {
 
       <div className='maindiv' className='h-screen'>
 
-        <NavbarMobile />
+        { <NavbarMobile />
 
-        <Timeline />
+        // <Timeline /> }
 
-        {/* <section class='relative' >
+        /*{ <section class='relative' >
           <h1>TIMELINE</h1>
         </section> */}
 
       <Profilebar />
 
-      <Navbar/>
+      {/* <Navbar/> */}
 
 
       </div>
