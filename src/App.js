@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from '../src/Components/Navbar'
-import './tailwind.css'
+import Profilebar from '../src/Profilebar';
+import './tailwind.css';
 
 function App() {
   return (
@@ -10,9 +10,10 @@ function App() {
         {/* <section class='relative' >
           <h1>TIMELINE</h1>
         </section> */}
-        
-          <Navbar />
-       
+
+      <Profilebar/>
+
+
       </div>
 
   );
