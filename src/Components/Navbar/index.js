@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css'
 import './../../../src/tailwind.css'
-import './fonts.css'
 
 
 import { AiOutlineHome, AiOutlineSearch, AiOutlineHeart, AiOutlineUser, AiOutlineCompass } from "react-icons/ai";
