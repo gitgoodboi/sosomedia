@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css'
 import './../../../src/tailwind.css'
+import { Link } from "react-router-dom"
 
 import { AiOutlineHome, AiOutlineSearch, AiOutlineHeart, AiOutlineUser, AiOutlineCompass } from "react-icons/ai";
 import {MdAddCircleOutline} from "react-icons/md";
@@ -38,9 +39,12 @@ function Navbar(){
                 <li className='lg:px-8 hover:bg-gray-200 rounded-full'>
                     <AiOutlineHeart size={32} />
                 </li>
+                <Link to='/profile' >
                 <li className='lg:px-8 hover:bg-gray-200 rounded-full' >
                     <AiOutlineUser size={32} />
                 </li>
+                </Link>
+                
             </ul>
         {/* </nav> */}
         </div>
