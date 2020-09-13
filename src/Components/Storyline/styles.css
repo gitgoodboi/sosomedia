@@ -1,0 +1,8 @@
+.hidescroll div::-webkit-scrollbar{
+    width: 0px !important;
+    display: none;
+}
+.hidescroll{
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}

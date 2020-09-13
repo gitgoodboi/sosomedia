@@ -1,0 +1,23 @@
+.read-more-state{
+    display: none;
+}
+.read-more-target{
+    opacity: 0;
+    height: 0;
+    font-size: 0;
+    transition: .5s ease;
+}
+
+.read-more-state:checked ~ * .read-more-target{
+    opacity: 1;
+    height: auto;
+    font-size: 16px;
+}
+
+.read-more-state ~ .read-more-trigger::before{
+        content: 'View all comments';
+}
+
+.read-more-state:checked ~ .read-more-trigger::before{
+    content: 'Show less comments';
+}

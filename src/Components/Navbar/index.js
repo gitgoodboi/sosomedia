@@ -10,7 +10,7 @@ function Navbar(){
 
     return(
         <div className='navbar' >
-        <div className='fixed bottom-0 w-screen flex justify-center border-solid border-t-2
+        <div style={{height: '64px', backgroundColor: "white", opacity: "1"}} className='fixed z-50 bottom-0 w-screen flex justify-center border-solid border-t-2
         lg:top-0 h-16 border-solid border-b-2 items-center'>
         {/* <nav class='w-screen' > */}
 
@@ -23,10 +23,12 @@ function Navbar(){
 
             <ul class='w-screen flex justify-between px-1 py-1
             lg:justify-end w-auto'>
-
+                <Link to='/sosomedia' >
                 <li className='usedicon' className='lg:px-8 hover:bg-gray-200 rounded-full '>
                     <AiOutlineHome size={32} />
-                </li>
+                </li>                 
+                </Link>
+
                 <li className='hidden lg:block px-8 hover:bg-gray-200 rounded-full'>
                     <AiOutlineCompass size={32} />
                 </li>
