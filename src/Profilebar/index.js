@@ -5,6 +5,11 @@ import DjAnkit from "../../src/img/Djankit.jpg";
 import Adventure from "../img/adventure.jpg";
 import Culture from "../img/culture.jpg";
 import Holiday from "../img/holiday.jpg";
+import Partymanankit from "../img/partyman.jpg";
+import Painterman from "../img/painter boi.jpg";
+import Coolboi from "../img/coolboi.jpg";
+import Moviestar from "../img/moviestar.jpg";
+
 
 import {
   AiOutlineHome,
@@ -44,18 +49,18 @@ function Profilebar() {
           <div>1 following</div>
         </div>
         {/* ========================================================================================================== */}
-        <div className=" storyBar w-full flex mx-10">
-          <div >
+        <div className=" storyBar w-full flex border-b-2 pb-4 ">
+          <div className="">
             <img
-            className="w-20 h-20 rounded-full"
+            className="w-16 h-16 rounded-full ml-10"
             src={Adventure}
             alt={"Bikerankit"}
             ></img>
-            <p>Adventure</p>
+            <p className="ml-10">Adventure</p>
           </div>
           <div className="mx-4">
             <img
-            className="w-20 h-20 rounded-full"
+            className="w-16 h-16 rounded-full"
             src={Culture}
             alt={"Newariankit"}
             ></img>
@@ -63,7 +68,7 @@ function Profilebar() {
           </div>
           <div>
             <img
-            className="w-20 h-20 rounded-full"
+            className="w-16 h-16 rounded-full"
             src={Holiday}
             alt={"Partymanankit"}
             ></img>
@@ -71,8 +76,50 @@ function Profilebar() {
           </div>
         </div>
         {/* =============================================================================================================== */}
-        <div></div>
+        <div className=" flex flex-row pb-4 pt-4">
+          <div className="">
+            <img className="" src={Partymanankit}
+            alt={"photo1"}
+            ></img>
+          </div>
+          <div className="mx-4">
+             <img className="" src={Painterman}
+            alt={"photo2"}
+            ></img>
+          </div>
+          <div className="">
+             <img className="" src={Coolboi}
+            alt={"photo3"}
+            ></img>
+          </div>
+        </div>
+        <div className="pt-4">
+          <div className="flex flex-row w-56">
+             <img className="" src={Moviestar}
+            alt={"photo2"}
+            ></img>
+          </div>
+        </div>
       </section>
+      <footer className="footerYeah ml-20 mr-20">
+        <div className="flex flex-row justify-around mt-10 text-blue-600">
+          <p>ABOUT</p>
+          <p className="mx-2">HELP</p>
+          <p>PRESS</p>
+          <p className="mx-2">API</p>
+          <p>JOBS</p>
+          <p className="mx-2">PRIVACY</p>
+          <p>TERMS</p>
+        </div>
+        <div className="flex justify-around mt-4 text-blue-600 ">
+          <p>LOCATION</p>
+          <p className="mx-2">TOPACCOUNTS</p>
+          <p>HASHTAGS</p>
+          <p className="mx-2">LANGUAGE</p>
+        </div>
+        <div className="text-red-500 mt-4">
+          Powered and presents by Anish and Melvin. Fuck instagram we got Sosomedia. 2020 SoSomedia.</div>
+      </footer>
     </React.Fragment>
   );
 }
